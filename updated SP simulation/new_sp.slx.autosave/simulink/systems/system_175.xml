@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-7, -7, 1543, 831]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Reference" Name="Magnet3" SID="176">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[175, 20, 215, 60]</P>
+    <P Name="ZOrder">352</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">left</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\magnet.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.magnet.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.magnet.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.magnet.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.magnet.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.magnet.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.magnet.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Magnet_mount3" SID="177">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[310, 235, 350, 275]</P>
+    <P Name="ZOrder">353</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\magnet_mount.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.magnet_mount.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.magnet_mount.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.magnet_mount.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.magnet_mount.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.magnet_mount.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.magnet_mount.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform6" SID="178">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[500, 170, 540, 210]</P>
+    <P Name="ZOrder">292</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationLengthUnit">mm</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationCartesianOffset">smbData.magnet_mount(3).Left.RigidTransform.translation</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="RotationMethod">RotationSequence</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0.0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYZ</P>
+      <P Name="RotationSequenceAngles">smbData.magnet_mount(3).Left.RigidTransform.angles</P>
+      <P Name="RotationSequenceAnglesUnits">rad</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform8" SID="179">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[175, 105, 215, 145]</P>
+    <P Name="ZOrder">305</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationStandardOffset">6.2</P>
+      <P Name="TranslationLengthUnit">mm</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardAxis">-Y</P>
+      <P Name="TranslationCartesianOffset">smbData.magnet(2).Left.RigidTransform.translation</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="RotationMethod">RotationSequence</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0.0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYZ</P>
+      <P Name="RotationSequenceAngles">smbData.magnet(2).Left.RigidTransform.angles</P>
+      <P Name="RotationSequenceAnglesUnits">rad</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn1" SID="180">
+    <P Name="Position">[20, 183, 50, 197]</P>
+    <P Name="ZOrder">354</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn2" SID="181">
+    <P Name="Position">[645, 183, 675, 197]</P>
+    <P Name="ZOrder">355</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">1</P>
+    <P Name="Src">178#lconn:1</P>
+    <P Name="Dst">181#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">2</P>
+    <P Name="Src">176#rconn:1</P>
+    <P Name="Dst">179#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">3</P>
+    <P Name="Points">[195, 190; 0, -30]</P>
+    <P Name="Dst">179#lconn:1</P>
+    <Branch ConnectType="SRC_DEST">
+      <P Name="Src">180#rconn:1</P>
+      <P Name="Points">[130, 0]</P>
+    </Branch>
+    <Branch ConnectType="SRC_DEST">
+      <P Name="Points">[330, 190; -135, 0]</P>
+      <Branch ConnectType="SRC_DEST">
+        <P Name="Src">177#rconn:1</P>
+        <P Name="Points">[0, -30]</P>
+      </Branch>
+      <Branch ConnectType="SRC_DEST">
+        <P Name="Src">178#rconn:1</P>
+        <P Name="Points">[-155, 0]</P>
+      </Branch>
+    </Branch>
+  </Line>
+</System>

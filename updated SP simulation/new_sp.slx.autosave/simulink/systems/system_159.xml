@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-8, -8, 1928, 1048]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">63</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Reference" Name="shaping_cover" SID="203">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[320, 370, 360, 410]</P>
+    <P Name="ZOrder">284</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\shaping_cover.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.shaping_cover.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.shaping_cover.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.shaping_cover.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.shaping_cover.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.shaping_cover.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.shaping_cover.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn1" SID="204">
+    <P Name="Position">[-60, 208, -30, 222]</P>
+    <P Name="ZOrder">358</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn2" SID="205">
+    <P Name="Position">[-60, 298, -30, 312]</P>
+    <P Name="ZOrder">359</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn3" SID="206">
+    <P Name="Position">[-60, 398, -30, 412]</P>
+    <P Name="ZOrder">360</P>
+    <P Name="Port">3</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn4" SID="207">
+    <P Name="Position">[-60, 498, -30, 512]</P>
+    <P Name="ZOrder">361</P>
+    <P Name="Port">4</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn5" SID="208">
+    <P Name="Position">[-60, 598, -30, 612]</P>
+    <P Name="ZOrder">362</P>
+    <P Name="Port">5</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn6" SID="209">
+    <P Name="Position">[-60, 698, -30, 712]</P>
+    <P Name="ZOrder">363</P>
+    <P Name="Port">6</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">8</P>
+    <P Name="Points">[187, 605; 0, -100]</P>
+    <Branch ConnectType="SRC_DEST">
+      <P Name="Src">209#rconn:1</P>
+      <P Name="Points">[202, 0; 0, -100]</P>
+    </Branch>
+    <Branch ConnectType="SRC_SRC">
+      <P Name="Dst">208#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Dst">207#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Points">[0, -100]</P>
+      <Branch ConnectType="DEST_SRC">
+        <P Name="Points">[0, -100]</P>
+        <Branch ConnectType="DEST_SRC">
+          <P Name="Points">[0, -90]</P>
+          <Branch ConnectType="DEST_DEST">
+            <P Name="Src">203#rconn:1</P>
+            <P Name="Points">[0, -140; -153, 0]</P>
+          </Branch>
+          <Branch ConnectType="DEST_DEST">
+            <P Name="Src">204#rconn:1</P>
+            <P Name="Points">[202, 0]</P>
+          </Branch>
+        </Branch>
+        <Branch ConnectType="DEST_DEST">
+          <P Name="Src">205#rconn:1</P>
+          <P Name="Points">[202, 0]</P>
+        </Branch>
+      </Branch>
+      <Branch ConnectType="DEST_SRC">
+        <P Name="Dst">206#rconn:1</P>
+      </Branch>
+    </Branch>
+  </Line>
+</System>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-6, 0, 775, 830]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">150</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform" SID="242">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[305, 20, 345, 60]</P>
+    <P Name="ZOrder">188</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationLengthUnit">mm</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationCartesianOffset">smbData.servo_SG90(6).Right.RigidTransform.translation</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="RotationMethod">RotationSequence</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0.0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYZ</P>
+      <P Name="RotationSequenceAngles">smbData.servo_SG90(6).Right.RigidTransform.angles</P>
+      <P Name="RotationSequenceAnglesUnits">rad</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform1" SID="243">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[115, 20, 155, 60]</P>
+    <P Name="ZOrder">191</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="TranslationMethod">None</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationLengthUnit">mm</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationCartesianOffset">smbData.servo_SG90(1).Right.RigidTransform.translation</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="RotationMethod">RotationSequence</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0.0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYZ</P>
+      <P Name="RotationSequenceAngles">smbData.servo_SG90(6).Left.RigidTransform.angles</P>
+      <P Name="RotationSequenceAnglesUnits">rad</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="servo_SG90_TowerPro_9g_Micro" SID="244">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[235, 145, 275, 185]</P>
+    <P Name="ZOrder">192</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\servo_SG90_TowerPro_9g_Micro.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.servo_sg90.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.servo_sg90.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.servo_sg90.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.servo_sg90.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.servo_sg90.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.servo_sg90.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn1" SID="245">
+    <P Name="Position">[20, 33, 50, 47]</P>
+    <P Name="ZOrder">186</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn2" SID="246">
+    <P Name="Position">[400, 33, 430, 47]</P>
+    <P Name="ZOrder">187</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">1</P>
+    <P Name="Points">[255, 40; -85, 0]</P>
+    <P Name="Dst">243#rconn:1</P>
+    <Branch ConnectType="SRC_DEST">
+      <P Name="Src">242#lconn:1</P>
+      <P Name="Points">[-35, 0]</P>
+    </Branch>
+    <Branch ConnectType="SRC_DEST">
+      <P Name="Src">244#rconn:1</P>
+      <P Name="Points">[0, -90]</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">4</P>
+    <P Name="Src">242#rconn:1</P>
+    <P Name="Dst">246#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">5</P>
+    <P Name="Src">243#lconn:1</P>
+    <P Name="Dst">245#rconn:1</P>
+  </Line>
+</System>

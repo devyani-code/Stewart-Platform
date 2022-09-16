@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2020b_20191110">
+  <System type="System" uuid="38cf71af-fc7e-4ee7-9680-a0f847da556f">
+    <Parameter type="Parameter" uuid="8e018b94-fc9a-4910-a9dd-0e62b1cdf7ad">
+      <Identifier>AL</Identifier>
+      <Name>AL</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="63305713-5bba-4cf2-b3a9-cb08f51370f7">
+      <Identifier>Alpha</Identifier>
+      <Name>Alpha</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="ca3ed032-ee11-4da9-aed2-a8f245a6cd76">
+      <Identifier>Alpha_</Identifier>
+      <Name>Alpha_</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="fc1789d7-1e9f-4323-8264-181d765c4854">
+      <Identifier>R</Identifier>
+      <Name>R</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="d12aa540-3c27-489a-8003-e0f63453ed86">
+      <Identifier>d</Identifier>
+      <Name>d</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="a7309697-05c7-4e09-84a6-10b6cc533291">
+      <Identifier>l</Identifier>
+      <Name>l</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="50a33d2d-829a-49e5-9dd0-821200605283">
+      <Identifier>p</Identifier>
+      <Name>p</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="8e06e7ed-de23-4658-aa11-71f05dc6353c">
+      <Identifier>q</Identifier>
+      <Name>q</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="b8d1266a-0a33-4426-8c91-087c9eae9fcf">
+      <Identifier>r</Identifier>
+      <Name>r</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="904b7539-39cc-4f3a-bfeb-75aaa943a95f">
+      <Identifier>rotangle</Identifier>
+      <Name>rotangle</Name>
+    </Parameter>
+    <Interface type="Interface" uuid="79b78fb3-f485-4cd4-b442-9cf4dabc369a"/>
+  </System>
+</MF0>

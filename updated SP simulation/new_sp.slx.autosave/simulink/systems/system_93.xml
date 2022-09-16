@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-6, 0, 775, 830]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">80</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Reference" Name="Passive_Link" SID="94">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[120, 100, 160, 140]</P>
+    <P Name="ZOrder">227</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\link_passive.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.link_passive.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.link_passive.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.link_passive.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.link_passive.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.link_passive.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.link_passive.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform1" SID="95">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[215, 20, 255, 60]</P>
+    <P Name="ZOrder">218</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationLengthUnit">mm</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationCartesianOffset">smbData.joint_spherical(5).Left.RigidTransform.translation</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="RotationMethod">None</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationStandardAxis">+X</P>
+      <P Name="RotationAngle">90.0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYX</P>
+      <P Name="RotationSequenceAngles">[0 0 0]</P>
+      <P Name="RotationSequenceAnglesUnits">deg</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Spherical&#xA;Joint" SID="96">
+    <P Name="Ports">[0, 0, 0, 0, 0, 1, 1]</P>
+    <P Name="Position">[425, 20, 465, 60]</P>
+    <P Name="ZOrder">225</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="SourceType">Spherical
+Joint</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="JointMode">Normal</P>
+      <P Name="SenseConstraintForce">off</P>
+      <P Name="SenseConstraintForceX">off</P>
+      <P Name="SenseConstraintForceY">off</P>
+      <P Name="SenseConstraintForceZ">off</P>
+      <P Name="SenseConstraintTorque">off</P>
+      <P Name="SenseConstraintTorqueX">off</P>
+      <P Name="SenseConstraintTorqueY">off</P>
+      <P Name="SenseConstraintTorqueZ">off</P>
+      <P Name="SenseTotalForce">off</P>
+      <P Name="SenseTotalForceX">off</P>
+      <P Name="SenseTotalForceY">off</P>
+      <P Name="SenseTotalForceZ">off</P>
+      <P Name="SenseTotalTorque">off</P>
+      <P Name="SenseTotalTorqueX">off</P>
+      <P Name="SenseTotalTorqueY">off</P>
+      <P Name="SenseTotalTorqueZ">off</P>
+      <P Name="CompositeWrenchDir">FollowerOnBase</P>
+      <P Name="CompositeWrenchFrame">BaseFrame</P>
+      <P Name="DefPosRotationMethod">None</P>
+      <P Name="DefPosRotationAngleUnits">deg</P>
+      <P Name="DefPosRotationStandardAxis">+Z</P>
+      <P Name="DefPosRotationAngle">0.0</P>
+      <P Name="DefPosRotationAngle_conf">compiletime</P>
+      <P Name="DefPosRotationArbitraryAxis">[0 0 1]</P>
+      <P Name="DefPosRotationArbitraryAxis_conf">compiletime</P>
+      <P Name="DefPosFollAlignAxisA">+X</P>
+      <P Name="DefPosBaseAlignAxisA">+Y</P>
+      <P Name="DefPosFollAlignAxisB">+Y</P>
+      <P Name="DefPosBaseAlignAxisB">+Z</P>
+      <P Name="DefPosRotationSequenceAxes">FollowerAxes</P>
+      <P Name="DefPosRotationSequence">XYX</P>
+      <P Name="DefPosRotationSequenceAngles">[0 0 0]</P>
+      <P Name="DefPosRotationSequenceAnglesUnits">deg</P>
+      <P Name="DefPosRotationSequenceAngles_conf">compiletime</P>
+      <P Name="DefPosRotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="DefPosRotationMatrix_conf">compiletime</P>
+      <P Name="EqPosRotationMethod">None</P>
+      <P Name="EqPosRotationAngleUnits">deg</P>
+      <P Name="EqPosRotationStandardAxis">+Z</P>
+      <P Name="EqPosRotationAngle">0.0</P>
+      <P Name="EqPosRotationAngle_conf">compiletime</P>
+      <P Name="EqPosRotationArbitraryAxis">[0 0 1]</P>
+      <P Name="EqPosRotationArbitraryAxis_conf">compiletime</P>
+      <P Name="EqPosFollAlignAxisA">+X</P>
+      <P Name="EqPosBaseAlignAxisA">+Y</P>
+      <P Name="EqPosFollAlignAxisB">+Y</P>
+      <P Name="EqPosBaseAlignAxisB">+Z</P>
+      <P Name="EqPosRotationSequenceAxes">FollowerAxes</P>
+      <P Name="EqPosRotationSequence">XYX</P>
+      <P Name="EqPosRotationSequenceAngles">[0 0 0]</P>
+      <P Name="EqPosRotationSequenceAnglesUnits">deg</P>
+      <P Name="EqPosRotationSequenceAngles_conf">compiletime</P>
+      <P Name="EqPosRotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="EqPosRotationMatrix_conf">compiletime</P>
+      <P Name="SpringStiffness">0</P>
+      <P Name="SpringStiffnessUnits">N*m/deg</P>
+      <P Name="SpringStiffness_conf">compiletime</P>
+      <P Name="DampingCoefficient">0</P>
+      <P Name="DampingCoefficientUnits">N*m/(deg/s)</P>
+      <P Name="DampingCoefficient_conf">compiletime</P>
+      <P Name="ActuateTorqueX">off</P>
+      <P Name="ActuateTorqueY">off</P>
+      <P Name="ActuateTorqueZ">off</P>
+      <P Name="ActuateTorque">off</P>
+      <P Name="TorqueActuationMode">NoTorque</P>
+      <P Name="MotionActuationMode">ComputedMotion</P>
+      <P Name="ActuationFrame">BaseFrame</P>
+      <P Name="SensePosition">off</P>
+      <P Name="SenseVelocityX">off</P>
+      <P Name="SenseVelocityY">off</P>
+      <P Name="SenseVelocityZ">off</P>
+      <P Name="SenseVelocity">off</P>
+      <P Name="SenseAccelerationX">off</P>
+      <P Name="SenseAccelerationY">off</P>
+      <P Name="SenseAccelerationZ">off</P>
+      <P Name="SenseAcceleration">off</P>
+      <P Name="SenseTorqueX">off</P>
+      <P Name="SenseTorqueY">off</P>
+      <P Name="SenseTorqueZ">off</P>
+      <P Name="SenseTorqueForce">off</P>
+      <P Name="SenseLowerLimitTorqueMag">off</P>
+      <P Name="SenseUpperLimitTorqueMag">off</P>
+      <P Name="SensingFrame">BaseFrame</P>
+      <P Name="LowerLimitSpecify">off</P>
+      <P Name="LowerLimitBound">15</P>
+      <P Name="LowerLimitBoundUnits">deg</P>
+      <P Name="LowerLimitBound_conf">compiletime</P>
+      <P Name="LowerLimitStiffness">1e4</P>
+      <P Name="LowerLimitStiffnessUnits">N*m/deg</P>
+      <P Name="LowerLimitStiffness_conf">compiletime</P>
+      <P Name="LowerLimitDamping">10</P>
+      <P Name="LowerLimitDampingUnits">N*m/(deg/s)</P>
+      <P Name="LowerLimitDamping_conf">compiletime</P>
+      <P Name="LowerLimitTransitionRegionWidth">0.1</P>
+      <P Name="LowerLimitTransitionRegionWidthUnits">deg</P>
+      <P Name="LowerLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="UpperLimitSpecify">off</P>
+      <P Name="UpperLimitBound">45</P>
+      <P Name="UpperLimitBoundUnits">deg</P>
+      <P Name="UpperLimitBound_conf">compiletime</P>
+      <P Name="UpperLimitStiffness">1e4</P>
+      <P Name="UpperLimitStiffnessUnits">N*m/deg</P>
+      <P Name="UpperLimitStiffness_conf">compiletime</P>
+      <P Name="UpperLimitDamping">10</P>
+      <P Name="UpperLimitDampingUnits">N*m/(deg/s)</P>
+      <P Name="UpperLimitDamping_conf">compiletime</P>
+      <P Name="UpperLimitTransitionRegionWidth">0.1</P>
+      <P Name="UpperLimitTransitionRegionWidthUnits">deg</P>
+      <P Name="UpperLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PositionTargetRotationMethod">None</P>
+      <P Name="PositionTargetRotationAngleUnits">deg</P>
+      <P Name="PositionTargetRotationStandardAxis">+Z</P>
+      <P Name="PositionTargetRotationAngle">0.0</P>
+      <P Name="PositionTargetRotationAngle_conf">compiletime</P>
+      <P Name="PositionTargetRotationArbitraryAxis">[0 0 1]</P>
+      <P Name="PositionTargetRotationArbitraryAxis_conf">compiletime</P>
+      <P Name="PositionTargetFollAlignAxisA">+X</P>
+      <P Name="PositionTargetBaseAlignAxisA">+Y</P>
+      <P Name="PositionTargetFollAlignAxisB">+Y</P>
+      <P Name="PositionTargetBaseAlignAxisB">+Z</P>
+      <P Name="PositionTargetRotationSequenceAxes">FollowerAxes</P>
+      <P Name="PositionTargetRotationSequence">XYX</P>
+      <P Name="PositionTargetRotationSequenceAngles">[0 0 0]</P>
+      <P Name="PositionTargetRotationSequenceAnglesUnits">deg</P>
+      <P Name="PositionTargetRotationSequenceAngles_conf">compiletime</P>
+      <P Name="PositionTargetRotationMatrix">[1 0 0; 0 1 0; 0 0 1]</P>
+      <P Name="PositionTargetRotationMatrix_conf">compiletime</P>
+      <P Name="PositionTargetSpecify">off</P>
+      <P Name="PositionTargetPriority">High</P>
+      <P Name="VelocityTargetValue">[0 0 0]</P>
+      <P Name="VelocityTargetValueUnits">deg/s</P>
+      <P Name="VelocityTargetValue_conf">compiletime</P>
+      <P Name="VelocityTargetSpecify">off</P>
+      <P Name="VelocityTargetPriority">High</P>
+      <P Name="VelocityTargetInFollowerFrame">on</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Spherical_Joint" SID="97">
+    <P Name="Ports">[0, 0, 0, 0, 0, 0, 1]</P>
+    <P Name="Position">[295, 100, 335, 140]</P>
+    <P Name="ZOrder">226</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="LibraryVersion">7.41</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <P Name="SourceProductBaseCode">MS</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="ExtGeomFileName">meshes\joint_spherical.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">off</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="Mass">smiData.joint_spherical.mass</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="CenterOfMass">smiData.joint_spherical.CoM</P>
+      <P Name="CenterOfMassUnits">m</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="MomentsOfInertia">smiData.joint_spherical.MoI</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertia">smiData.joint_spherical.PoI</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">smiData.joint_spherical.color</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="GraphicOpacity">smiData.joint_spherical.opacity</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn1" SID="98">
+    <P Name="Position">[20, 33, 50, 47]</P>
+    <P Name="ZOrder">220</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Conn2" SID="99">
+    <P Name="Position">[545, 33, 575, 47]</P>
+    <P Name="ZOrder">221</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">1</P>
+    <P Name="Src">96#lconn:1</P>
+    <P Name="Points">[-95, 0]</P>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Dst">95#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">97#rconn:1</P>
+      <P Name="Points">[0, -45]</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">4</P>
+    <P Name="Src">95#lconn:1</P>
+    <P Name="Points">[-60, 0]</P>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Dst">98#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">94#rconn:1</P>
+      <P Name="Points">[0, -45]</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">7</P>
+    <P Name="Src">99#rconn:1</P>
+    <P Name="Dst">96#rconn:1</P>
+  </Line>
+</System>

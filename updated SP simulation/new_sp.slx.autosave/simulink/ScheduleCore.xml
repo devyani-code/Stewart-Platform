@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2021b_202106150630">
+  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="578581b6-1839-4b08-88ea-5038166ea998">
+    <priorityDirection>HighNumberLast</priorityDirection>
+    <editorState type="sltp.mm.core.EditorState" uuid="d6d85b91-7972-4dbe-b24f-0e0bb17a4f14">
+      <isSynchronized>true</isSynchronized>
+      <panelState type="sltp.mm.core.EditorPanelState" uuid="1d5f28fb-f790-4ff2-80c8-d130897bca55"/>
+    </editorState>
+    <rootTask type="sltp.mm.core.Task" uuid="4bf564d8-9e08-4d1a-8a29-ad9ec6115910">
+      <context type="sltp.mm.core.Context" uuid="578581b6-1839-4b08-88ea-5038166ea998"/>
+      <explicit>false</explicit>
+      <name>Default</name>
+      <priority>-2147483648</priority>
+      <subgraph type="sltp.mm.core.Graph" uuid="f9f16229-cc20-4aea-a1f2-0dee07e93e71">
+        <tasks type="sltp.mm.core.Task" uuid="df1a19b7-dfe8-48d7-875b-996204c1c74f">
+          <baseTask>true</baseTask>
+          <context type="sltp.mm.core.Context" uuid="578581b6-1839-4b08-88ea-5038166ea998"/>
+          <explicit>false</explicit>
+          <id>1</id>
+          <isTimed>true</isTimed>
+          <name>Cont</name>
+          <priority>40</priority>
+          <rates type="sltp.mm.core.Rate" uuid="9263cb9a-c3a2-4e3d-b0d0-39cf3964fb73">
+            <annotation>Cont</annotation>
+            <color>255</color>
+            <hasBlocks>true</hasBlocks>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <period>0.0</period>
+            </rateSpec>
+            <sti>0</sti>
+          </rates>
+          <rates type="sltp.mm.core.Rate" uuid="fe00bd01-3945-42fc-8235-9d604876405c">
+            <annotation>FiM</annotation>
+            <color>-2139062017</color>
+            <hasBlocks>true</hasBlocks>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <offset>1.0</offset>
+              <period>0.0</period>
+            </rateSpec>
+            <sti>1</sti>
+          </rates>
+        </tasks>
+      </subgraph>
+    </rootTask>
+  </sltp.mm.core.Context>
+</sltp_graph>

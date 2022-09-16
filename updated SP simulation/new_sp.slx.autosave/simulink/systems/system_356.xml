@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-6, -6, 1287, 687]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">60</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Constant" Name="Constant1" SID="375">
+    <P Name="Position">[355, 90, 385, 120]</P>
+    <P Name="ZOrder">511</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant3" SID="377">
+    <P Name="Position">[385, 180, 415, 210]</P>
+    <P Name="ZOrder">513</P>
+    <P Name="Value">0.01</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant4" SID="378">
+    <P Name="Position">[425, 60, 455, 90]</P>
+    <P Name="ZOrder">514</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant5" SID="379">
+    <P Name="Position">[330, 30, 360, 60]</P>
+    <P Name="ZOrder">515</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Demux" Name="Demux" SID="392">
+    <P Name="Ports">[1, 2]</P>
+    <P Name="Position">[80, 141, 85, 179]</P>
+    <P Name="ZOrder">528</P>
+    <P Name="Outputs">2</P>
+  </Block>
+  <Block BlockType="Display" Name="Display" SID="380">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[725, 247, 825, 373]</P>
+    <P Name="ZOrder">516</P>
+    <P Name="Decimation">1</P>
+  </Block>
+  <Block BlockType="Display" Name="Display1" SID="391">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[165, 279, 245, 381]</P>
+    <P Name="ZOrder">527</P>
+    <P Name="Decimation">1</P>
+  </Block>
+  <Block BlockType="FromWorkspace" Name="From&#xA;Workspace" SID="387">
+    <P Name="Position">[-90, 163, -25, 187]</P>
+    <P Name="ZOrder">523</P>
+    <P Name="VariableName">sim</P>
+  </Block>
+  <Block BlockType="Gain" Name="Gain" SID="57">
+    <P Name="Position">[710, 105, 740, 135]</P>
+    <P Name="ZOrder">507</P>
+    <P Name="Gain">-1</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="Robokit StPlatform Angles Changes" SID="113">
+    <P Name="Ports">[6, 1]</P>
+    <P Name="Position">[525, 22, 660, 218]</P>
+    <P Name="ZOrder">502</P>
+    <P Name="ErrorFcn">Stateflow.Translate.translate</P>
+    <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
+    <P Name="TreatAsAtomicUnit">on</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <P Name="SFBlockType">MATLAB Function</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_113"/>
+  </Block>
+  <Block BlockType="Outport" Name="Out1" SID="358">
+    <P Name="Position">[840, 113, 870, 127]</P>
+    <P Name="ZOrder">509</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">214</P>
+    <P Name="Src">57#out:1</P>
+    <P Name="Dst">358#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">216</P>
+    <P Name="Src">379#out:1</P>
+    <P Name="Dst">113#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">217</P>
+    <P Name="Src">378#out:1</P>
+    <P Name="Dst">113#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">218</P>
+    <P Name="Src">375#out:1</P>
+    <P Name="Dst">113#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">219</P>
+    <P Name="Src">377#out:1</P>
+    <P Name="Dst">113#in:6</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">223</P>
+    <P Name="Src">113#out:1</P>
+    <P Name="Points">[19, 0]</P>
+    <Branch>
+      <P Name="ZOrder">225</P>
+      <P Name="Dst">57#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">224</P>
+      <P Name="Points">[0, 190]</P>
+      <P Name="Dst">380#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">261</P>
+    <P Name="Src">387#out:1</P>
+    <P Name="Points">[68, 0]</P>
+    <Branch>
+      <P Name="ZOrder">264</P>
+      <P Name="Points">[0, -40; 8, 0; 0, 25]</P>
+      <P Name="Dst">392#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">263</P>
+      <P Name="Points">[0, 155]</P>
+      <P Name="Dst">391#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">268</P>
+    <P Name="Src">392#out:1</P>
+    <P Name="Points">[165, 0; 0, -15]</P>
+    <P Name="Dst">113#in:4</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">269</P>
+    <P Name="Src">392#out:2</P>
+    <P Name="Points">[210, 0; 0, -5]</P>
+    <P Name="Dst">113#in:5</P>
+  </Line>
+</System>

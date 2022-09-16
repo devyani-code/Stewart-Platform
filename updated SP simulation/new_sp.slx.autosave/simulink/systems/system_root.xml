@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-6, -6, 1287, 687]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">60</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">392</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="SubSystem" Name="Inverse Kinematics Solver" SID="356">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[785, 1220, 910, 1340]</P>
+    <P Name="ZOrder">554</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <Mask>
+      <Display>image(&apos;icons\cheme.png&apos;); % Use &quot;Edit Image&quot; on toolstrip to change.</Display>
+    </Mask>
+    <System Ref="system_356"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="Model of Parallel Robot" SID="372">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[965, 1221, 1080, 1339]</P>
+    <P Name="ZOrder">557</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <Mask>
+      <Display>image(&apos;icons\stuartplatformicon.png&apos;); % Use &quot;Edit Image&quot; on toolstrip to change.</Display>
+    </Mask>
+    <System Ref="system_372"/>
+  </Block>
+  <Line>
+    <P Name="ZOrder">239</P>
+    <P Name="Src">356#out:1</P>
+    <P Name="Dst">372#in:1</P>
+  </Line>
+</System>

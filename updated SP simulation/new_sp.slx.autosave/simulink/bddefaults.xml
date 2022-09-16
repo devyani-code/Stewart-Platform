@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BlockDiagramDefaults>
+  <MaskDefaults SelfModifiable="off">
+    <Display IconFrame="on" IconOpaque="opaque" RunInitForIconRedraw="analyze" IconRotate="none" PortRotate="default" IconUnits="autoscale"/>
+    <MaskParameter Evaluate="on" Tunable="on" NeverSave="off" Internal="off" ReadOnly="off" Enabled="on" Visible="on" ToolTip="on"/>
+    <DialogControl>
+      <ControlOptions Visible="on" Enabled="on" Row="new" HorizontalStretch="on" PromptLocation="top" Orientation="horizontal" Scale="linear" TextType="Plain Text" Expand="off" ShowFilter="on" ShowParameterName="on" WordWrap="on" AlignPrompts="off"/>
+    </DialogControl>
+  </MaskDefaults>
+  <BlockParameterDefaults>
+    <Block BlockType="Constant">
+      <P Name="Value">1</P>
+      <P Name="VectorParams1D">on</P>
+      <P Name="SamplingMode">Sample based</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">Inherit: Inherit from &apos;Constant value&apos;</P>
+      <P Name="LockScale">off</P>
+      <P Name="SampleTime">inf</P>
+      <P Name="FramePeriod">inf</P>
+      <P Name="PreserveConstantTs">off</P>
+    </Block>
+    <Block BlockType="Demux">
+      <P Name="Outputs">4</P>
+      <P Name="DisplayOption">bar</P>
+      <P Name="BusSelectionMode">off</P>
+    </Block>
+    <Block BlockType="Display">
+      <P Name="Format">short</P>
+      <P Name="Decimation">10</P>
+      <P Name="Floating">off</P>
+      <P Name="Lockdown">off</P>
+      <P Name="SampleTime">-1</P>
+    </Block>
+    <Block BlockType="FromWorkspace">
+      <P Name="VariableName">simulink_input</P>
+      <P Name="OutDataTypeStr">Inherit: auto</P>
+      <P Name="SampleTime">0</P>
+      <P Name="Interpolate">on</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="OutputAfterFinalValue">Extrapolation</P>
+    </Block>
+    <Block BlockType="Gain">
+      <P Name="Gain">1</P>
+      <P Name="Multiplication">Element-wise(K.*u)</P>
+      <P Name="ParamMin">[]</P>
+      <P Name="ParamMax">[]</P>
+      <P Name="ParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="LockScale">off</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="SampleTime">-1</P>
+    </Block>
+    <Block BlockType="Inport">
+      <P Name="Port">1</P>
+      <P Name="AllowServiceAccess">off</P>
+      <P Name="IconDisplay">Port number</P>
+      <P Name="OutputFunctionCall">off</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">Inherit: auto</P>
+      <P Name="LockScale">off</P>
+      <P Name="BusOutputAsStruct">off</P>
+      <P Name="Unit">inherit</P>
+      <P Name="PortDimensions">-1</P>
+      <P Name="VarSizeSig">Inherit</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="SignalType">auto</P>
+      <P Name="SamplingMode">auto</P>
+      <P Name="LatchByDelayingOutsideSignal">off</P>
+      <P Name="LatchInputForFeedbackSignals">off</P>
+      <P Name="Interpolate">on</P>
+    </Block>
+    <Block BlockType="Outport">
+      <P Name="Port">1</P>
+      <P Name="AllowServiceAccess">off</P>
+      <P Name="IconDisplay">Port number</P>
+      <P Name="OutputFunctionCall">off</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">Inherit: auto</P>
+      <P Name="LockScale">off</P>
+      <P Name="BusOutputAsStruct">off</P>
+      <P Name="Unit">inherit</P>
+      <P Name="PortDimensions">-1</P>
+      <P Name="VarSizeSig">Inherit</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="SignalType">auto</P>
+      <P Name="SamplingMode">auto</P>
+      <P Name="EnsureOutportIsVirtual">off</P>
+      <P Name="SourceOfInitialOutputValue">Dialog</P>
+      <P Name="OutputWhenDisabled">held</P>
+      <P Name="InitialOutput">[]</P>
+      <P Name="MustResolveToSignalObject">off</P>
+      <P Name="OutputWhenUnConnected">off</P>
+      <P Name="OutputWhenUnconnectedValue">0</P>
+      <P Name="VectorParamsAs1DForOutWhenUnconnected">on</P>
+    </Block>
+    <Block BlockType="PMIOPort">
+      <P Name="Port">1</P>
+      <P Name="ConnectionType">Inherit: auto</P>
+    </Block>
+    <Block BlockType="S-Function">
+      <P Name="FunctionName">system</P>
+      <P Name="SFunctionModules">&apos;&apos;</P>
+      <P Name="PortCounts">[]</P>
+      <P Name="MultithreadedSim">auto</P>
+    </Block>
+    <Block BlockType="SubSystem">
+      <P Name="ShowPortLabels">FromPortIcon</P>
+      <P Name="Permissions">ReadWrite</P>
+      <P Name="PermitHierarchicalResolution">All</P>
+      <P Name="TreatAsAtomicUnit">off</P>
+      <P Name="MinAlgLoopOccurrences">off</P>
+      <P Name="ScheduleAs">Sample time</P>
+      <P Name="SystemSampleTime">-1</P>
+      <P Name="RTWSystemCode">Auto</P>
+      <P Name="RTWFcnNameOpts">Auto</P>
+      <P Name="RTWFileNameOpts">Auto</P>
+      <P Name="FunctionInterfaceSpec">void_void</P>
+      <P Name="FunctionWithSeparateData">off</P>
+      <P Name="MatchGraphicalInterface">off</P>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="SimViewingDevice">off</P>
+      <P Name="DataTypeOverride">UseLocalSettings</P>
+      <P Name="DataTypeOverrideAppliesTo">AllNumericTypes</P>
+      <P Name="MinMaxOverflowLogging">UseLocalSettings</P>
+      <P Name="Opaque">off</P>
+      <P Name="MaskHideContents">off</P>
+      <P Name="SFBlockType">NONE</P>
+      <P Name="Variant">off</P>
+      <P Name="VariantControlMode">expression</P>
+      <P Name="VariantActivationTime">update diagram</P>
+      <P Name="AllowZeroVariantControls">off</P>
+      <P Name="PropagateVariantConditions">off</P>
+      <P Name="TreatAsGroupedWhenPropagatingVariantConditions">on</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="IsWebBlock">off</P>
+      <P Name="IsInjectorSS">off</P>
+      <P Name="Latency">0</P>
+      <P Name="AutoFrameSizeCalculation">off</P>
+      <P Name="IsWebBlockPanel">off</P>
+    </Block>
+    <Block BlockType="Terminator"/>
+  </BlockParameterDefaults>
+</BlockDiagramDefaults>

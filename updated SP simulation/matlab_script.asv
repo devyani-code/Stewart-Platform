@@ -1,0 +1,5 @@
+for i=1:5
+        simin=(i/100);
+        disp(sim);
+end
+   

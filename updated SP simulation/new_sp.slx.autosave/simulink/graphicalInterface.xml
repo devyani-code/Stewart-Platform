@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicalInterface>
+  <P Name="NumRootInports">0</P>
+  <P Name="NumRootOutports">0</P>
+  <P Name="ParameterArgumentNames"/>
+  <P Name="NumModelReferences">0</P>
+  <P Name="NumTestPointedSignals">0</P>
+  <P Name="NumProvidedFunctions">0</P>
+  <P Name="NumRequiredFunctions">0</P>
+  <P Name="NumResetEvents">0</P>
+  <P Name="HasInitializeEvent">0</P>
+  <P Name="HasTerminateEvent">0</P>
+  <P Name="PreCompExecutionDomainType">Unset</P>
+  <P Name="IsExportFunctionModel">0</P>
+  <P Name="SimulinkSubDomainType">Simulink</P>
+  <P Name="NumParameterArguments">0</P>
+  <P Name="NumExternalFileReferences">174</P>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link1/Rigid Transform</P>
+    <P Name="SID">2</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link1/Rigid Transform5</P>
+    <P Name="SID">3</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link1/link_active_servomotion</P>
+    <P Name="SID">4</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link2/Rigid Transform</P>
+    <P Name="SID">8</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link2/Rigid Transform5</P>
+    <P Name="SID">9</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link2/link_active_servomotion</P>
+    <P Name="SID">10</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link3/Rigid Transform</P>
+    <P Name="SID">14</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link3/Rigid Transform5</P>
+    <P Name="SID">15</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link3/link_active_servomotion</P>
+    <P Name="SID">16</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link4/Rigid Transform</P>
+    <P Name="SID">20</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link4/Rigid Transform5</P>
+    <P Name="SID">21</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link4/link_active_servomotion</P>
+    <P Name="SID">22</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link5/Rigid Transform</P>
+    <P Name="SID">26</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link5/Rigid Transform5</P>
+    <P Name="SID">27</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link5/link_active_servomotion</P>
+    <P Name="SID">28</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link6/Rigid Transform</P>
+    <P Name="SID">32</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link6/Rigid Transform5</P>
+    <P Name="SID">33</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Active Link6/link_active_servomotion</P>
+    <P Name="SID">34</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Utilities/Mechanism
+Configuration</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Base/Mechanism Configuration</P>
+    <P Name="SID">58</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Base/Rigid Transform</P>
+    <P Name="SID">38</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Solver
+Configuration</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Base/Solver Configuration</P>
+    <P Name="SID">158</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/World Frame</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Base/World Frame</P>
+    <P Name="SID">326</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Base/shaping_wheels</P>
+    <P Name="SID">39</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link1/Passive_Link</P>
+    <P Name="SID">66</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link1/Rigid Transform1</P>
+    <P Name="SID">67</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link1/Spherical Joint</P>
+    <P Name="SID">68</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link1/Spherical_Joint</P>
+    <P Name="SID">69</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link2/Passive_Link</P>
+    <P Name="SID">73</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link2/Rigid Transform1</P>
+    <P Name="SID">74</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link2/Spherical Joint</P>
+    <P Name="SID">75</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link2/Spherical_Joint</P>
+    <P Name="SID">76</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link3/Passive_Link</P>
+    <P Name="SID">80</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link3/Rigid Transform1</P>
+    <P Name="SID">81</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link3/Spherical Joint</P>
+    <P Name="SID">82</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link3/Spherical_Joint</P>
+    <P Name="SID">83</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link4/Passive_Link</P>
+    <P Name="SID">87</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link4/Rigid Transform1</P>
+    <P Name="SID">88</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link4/Spherical Joint</P>
+    <P Name="SID">89</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link4/Spherical_Joint</P>
+    <P Name="SID">90</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link5/Passive_Link</P>
+    <P Name="SID">94</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link5/Rigid Transform1</P>
+    <P Name="SID">95</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link5/Spherical Joint</P>
+    <P Name="SID">96</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link5/Spherical_Joint</P>
+    <P Name="SID">97</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link6/Passive_Link</P>
+    <P Name="SID">101</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link6/Rigid Transform1</P>
+    <P Name="SID">102</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Spherical
+Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link6/Spherical Joint</P>
+    <P Name="SID">103</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Passive Link6/Spherical_Joint</P>
+    <P Name="SID">104</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint1</P>
+    <P Name="SID">107</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint2</P>
+    <P Name="SID">108</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint3</P>
+    <P Name="SID">109</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint4</P>
+    <P Name="SID">110</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint5</P>
+    <P Name="SID">111</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Revolute Joint6</P>
+    <P Name="SID">112</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side1/Rigid Transform2</P>
+    <P Name="SID">117</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side1/side_servo_SG90</P>
+    <P Name="SID">118</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side2/Rigid Transform2</P>
+    <P Name="SID">122</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side2/side_servo_SG90</P>
+    <P Name="SID">123</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side3/Rigid Transform2</P>
+    <P Name="SID">127</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side3/side_servo_SG90</P>
+    <P Name="SID">128</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side4/Rigid Transform2</P>
+    <P Name="SID">132</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side4/side_servo_SG90</P>
+    <P Name="SID">133</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side5/Rigid Transform2</P>
+    <P Name="SID">137</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side5/side_servo_SG90</P>
+    <P Name="SID">138</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side6/Rigid Transform2</P>
+    <P Name="SID">142</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Servo Side6/side_servo_SG90</P>
+    <P Name="SID">143</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter1</P>
+    <P Name="SID">146</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter2</P>
+    <P Name="SID">147</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter3</P>
+    <P Name="SID">148</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter4</P>
+    <P Name="SID">149</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter5</P>
+    <P Name="SID">150</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Simulink-PS Converter6</P>
+    <P Name="SID">151</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem/shaping_cover</P>
+    <P Name="SID">203</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem1/Magnet1</P>
+    <P Name="SID">162</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem1/Magnet_mount1</P>
+    <P Name="SID">163</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem1/Rigid Transform2</P>
+    <P Name="SID">164</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem1/Rigid Transform3</P>
+    <P Name="SID">165</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem2/Magnet2</P>
+    <P Name="SID">169</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem2/Magnet_mount2</P>
+    <P Name="SID">170</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem2/Rigid Transform4</P>
+    <P Name="SID">171</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem2/Rigid Transform5</P>
+    <P Name="SID">172</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem3/Magnet3</P>
+    <P Name="SID">176</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem3/Magnet_mount3</P>
+    <P Name="SID">177</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem3/Rigid Transform6</P>
+    <P Name="SID">178</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem3/Rigid Transform8</P>
+    <P Name="SID">179</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem4/Magnet4</P>
+    <P Name="SID">183</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem4/Magnet_mount4</P>
+    <P Name="SID">184</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem4/Rigid Transform7</P>
+    <P Name="SID">185</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem4/Rigid Transform9</P>
+    <P Name="SID">186</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem5/Magnet5</P>
+    <P Name="SID">190</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem5/Magnet_mount5</P>
+    <P Name="SID">191</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem5/Rigid Transform10</P>
+    <P Name="SID">192</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem5/Rigid Transform11</P>
+    <P Name="SID">193</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem6/Magnet6</P>
+    <P Name="SID">197</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem6/Magnet_mount6</P>
+    <P Name="SID">198</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem6/Rigid Transform12</P>
+    <P Name="SID">199</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Subsystem6/Rigid Transform13</P>
+    <P Name="SID">200</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo1/Rigid Transform</P>
+    <P Name="SID">212</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo1/Rigid Transform1</P>
+    <P Name="SID">213</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo1/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">214</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo2/Rigid Transform</P>
+    <P Name="SID">218</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo2/Rigid Transform1</P>
+    <P Name="SID">219</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo2/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">220</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo3/Rigid Transform</P>
+    <P Name="SID">224</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo3/Rigid Transform1</P>
+    <P Name="SID">225</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo3/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">226</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo4/Rigid Transform</P>
+    <P Name="SID">230</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo4/Rigid Transform1</P>
+    <P Name="SID">231</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo4/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">232</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo5/Rigid Transform</P>
+    <P Name="SID">236</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo5/Rigid Transform1</P>
+    <P Name="SID">237</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo5/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">238</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo6/Rigid Transform</P>
+    <P Name="SID">242</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo6/Rigid Transform1</P>
+    <P Name="SID">243</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Tower Pro Micro Servo6/servo_SG90_TowerPro_9g_Micro</P>
+    <P Name="SID">244</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Revolute Joint1</P>
+    <P Name="SID">249</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Revolute Joint2</P>
+    <P Name="SID">250</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Rigid Transform1</P>
+    <P Name="SID">251</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Rigid Transform2</P>
+    <P Name="SID">252</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Rigid Transform3</P>
+    <P Name="SID">253</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Rigid Transform6</P>
+    <P Name="SID">254</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/Rigid Transform7</P>
+    <P Name="SID">255</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/joint_universal_15</P>
+    <P Name="SID">256</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/joint_universal_30</P>
+    <P Name="SID">257</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint1/joint_universal_cube</P>
+    <P Name="SID">258</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Revolute Joint1</P>
+    <P Name="SID">262</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Revolute Joint2</P>
+    <P Name="SID">263</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Rigid Transform1</P>
+    <P Name="SID">264</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Rigid Transform2</P>
+    <P Name="SID">265</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Rigid Transform3</P>
+    <P Name="SID">266</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Rigid Transform6</P>
+    <P Name="SID">267</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/Rigid Transform7</P>
+    <P Name="SID">268</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/joint_universal_15</P>
+    <P Name="SID">269</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/joint_universal_30</P>
+    <P Name="SID">270</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint2/joint_universal_cube</P>
+    <P Name="SID">271</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Revolute Joint1</P>
+    <P Name="SID">275</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Revolute Joint2</P>
+    <P Name="SID">276</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Rigid Transform1</P>
+    <P Name="SID">277</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Rigid Transform2</P>
+    <P Name="SID">278</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Rigid Transform3</P>
+    <P Name="SID">279</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Rigid Transform6</P>
+    <P Name="SID">280</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/Rigid Transform7</P>
+    <P Name="SID">281</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/joint_universal_15</P>
+    <P Name="SID">282</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/joint_universal_30</P>
+    <P Name="SID">283</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint3/joint_universal_cube</P>
+    <P Name="SID">284</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Revolute Joint1</P>
+    <P Name="SID">288</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Revolute Joint2</P>
+    <P Name="SID">289</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Rigid Transform1</P>
+    <P Name="SID">290</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Rigid Transform2</P>
+    <P Name="SID">291</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Rigid Transform3</P>
+    <P Name="SID">292</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Rigid Transform6</P>
+    <P Name="SID">293</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/Rigid Transform7</P>
+    <P Name="SID">294</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/joint_universal_15</P>
+    <P Name="SID">295</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/joint_universal_30</P>
+    <P Name="SID">296</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint4/joint_universal_cube</P>
+    <P Name="SID">297</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Revolute Joint1</P>
+    <P Name="SID">301</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Revolute Joint2</P>
+    <P Name="SID">302</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Rigid Transform1</P>
+    <P Name="SID">303</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Rigid Transform2</P>
+    <P Name="SID">304</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Rigid Transform3</P>
+    <P Name="SID">305</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Rigid Transform6</P>
+    <P Name="SID">306</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/Rigid Transform7</P>
+    <P Name="SID">307</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/joint_universal_15</P>
+    <P Name="SID">308</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/joint_universal_30</P>
+    <P Name="SID">309</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint5/joint_universal_cube</P>
+    <P Name="SID">310</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Revolute Joint1</P>
+    <P Name="SID">314</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Joints/Revolute Joint</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Revolute Joint2</P>
+    <P Name="SID">315</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Rigid Transform1</P>
+    <P Name="SID">316</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Rigid Transform2</P>
+    <P Name="SID">317</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Rigid Transform3</P>
+    <P Name="SID">318</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Rigid Transform6</P>
+    <P Name="SID">319</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/Rigid Transform7</P>
+    <P Name="SID">320</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/joint_universal_15</P>
+    <P Name="SID">321</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/joint_universal_30</P>
+    <P Name="SID">322</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sm_lib/Body Elements/File Solid</P>
+    <P Name="Path">$bdroot/Model of Parallel Robot/Universal Joint6/joint_universal_cube</P>
+    <P Name="SID">323</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <P Name="OrderedModelArguments">1</P>
+</GraphicalInterface>
